@@ -1,0 +1,31 @@
+{
+  "name": "imf-backend",
+  "version": "1.0.0",
+  "description": "IMF BACKEND",
+  "main": "./dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc",
+    "start": "node ./dist/server.js"
+    
+  },
+  "author": "Aadarsh Jain",
+  "license": "ISC",
+  "keywords": [],
+  "prisma": {
+    "schema": "./src/db/schema.prisma"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.2.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "prisma": "^6.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
