@@ -1,5 +1,5 @@
 import { PrismaClient } from "@prisma/client"
-
+/// <reference types="node" />
 
 declare global {
     var prisma: PrismaClient | undefined;
