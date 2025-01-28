@@ -1,12 +1,16 @@
 # IMF Backend API Documentation
 
+## Documentation Link
+- `https://documenter.getpostman.com/view/32816722/2sAYQiAT5H`
+
 ## Deployed Links
-- Production: `https://api.imf-gadgets.com/api/v1`
+- `https://api.imf-gadgets.com/api/v1`
 
 ## Base URL
 ```
 http://localhost:{PORT}/api/v1
 ```
+
 
 ## Authentication
 - Authentication is handled via HTTP-only cookies
