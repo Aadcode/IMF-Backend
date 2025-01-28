@@ -4,7 +4,7 @@
 - `https://documenter.getpostman.com/view/32816722/2sAYQiAT5H`
 
 ## Deployed Links
-- `https://api.imf-gadgets.com/api/v1`
+- `https://imf-backend-gng7.onrender.com/api/v1/`
 
 ## Base URL
 ```
