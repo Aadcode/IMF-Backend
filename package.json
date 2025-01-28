@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon --watch './src/**/*.ts' --exec tsx src/server.ts",
-    "build": "rimraf ./dist && tsc",
+    "build": "tsc",
     "start": "node ./dist/server.js",
     "seed": "tsx src/utils/seed.ts"
   },
