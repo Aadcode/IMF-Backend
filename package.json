@@ -25,7 +25,8 @@
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "prisma": "^6.2.1",
-    "@types/node": "^22.10.10"
+    "@types/node": "^22.10.10",
+    "typeRoots": ["./node_modules/@types"]
     
   },
   "devDependencies": {
